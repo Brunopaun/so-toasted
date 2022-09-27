@@ -1,0 +1,24 @@
+{
+  "name": "so-toasted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunopaun/so-toasted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunopaun/so-toasted/issues"
+  },
+  "homepage": "https://github.com/Brunopaun/so-toasted#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
