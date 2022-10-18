@@ -1,2 +1,1 @@
-let message: string = 'Hello world'
-console.log(message);
+export { reduce } from "./helper/reduce";
