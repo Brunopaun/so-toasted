@@ -5,14 +5,15 @@
   "main": "lib",
   "types": "lib",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "compile": "rm -rf lib && tsc && tsc --build tsconfig.es5.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brunopaun/so-toasted.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno Aun <brunopassosa@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brunopaun/so-toasted/issues"
