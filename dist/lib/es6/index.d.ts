@@ -1,2 +1,2 @@
-export { validateEmail } from "./validators/validators";
+export { validateEmail } from "./general/general";
 //# sourceMappingURL=index.d.ts.map

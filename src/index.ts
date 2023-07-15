@@ -1,1 +1,1 @@
-export { validateEmail } from "./validators/validators";
+export { validateEmail } from "./general/general";
