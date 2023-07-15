@@ -1,2 +1,2 @@
-package-lock.json
-README.md
+dist/lib
+node_modules

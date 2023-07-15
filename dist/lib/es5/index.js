@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.reduce = void 0;
-var reduce_1 = require("./helper/reduce");
-Object.defineProperty(exports, "reduce", { enumerable: true, get: function () { return reduce_1.reduce; } });
+exports.validateEmail = void 0;
+var validators_1 = require("./validators/validators");
+Object.defineProperty(exports, "validateEmail", { enumerable: true, get: function () { return validators_1.validateEmail; } });
 //# sourceMappingURL=index.js.map

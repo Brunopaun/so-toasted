@@ -2,17 +2,22 @@
   "name": "so-toasted",
   "version": "1.0.0",
   "description": "",
-  "main": "lib",
-  "types": "lib",
-  "scripts": {
-    "build": "tsc",
-    "compile": "rm -rf lib && tsc && tsc --build tsconfig.es5.json"
-  },
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brunopaun/so-toasted.git"
+    "url":"git+https://github.com/Brunopaun/so-toasted.git"
   },
-  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "keywords": [
+    "helpers",
+    "checkers",
+    "validators"
+  ],
   "author": "Bruno Aun <brunopassosa@gmail.com>",
   "license": "ISC",
   "bugs": {
