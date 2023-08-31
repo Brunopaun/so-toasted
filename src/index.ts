@@ -1,1 +1,1 @@
-export { validateEmail } from "./general/validators";
+export { validateEmail, randomNumber } from "./general/general";
